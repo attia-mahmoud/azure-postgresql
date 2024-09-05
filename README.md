@@ -19,7 +19,7 @@ azd init -t azure-postgres-pgvector-python
 Create a Python virtual environment and install the required packages
 ```bash
 python -m venv <environment-name>
-source venv/bin/activate
+source <environment-name>/bin/activate
 python -m pip install -r requirements.txt
 ```
 
