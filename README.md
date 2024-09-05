@@ -11,7 +11,7 @@ curl -fsSL https://aka.ms/install-azd.sh | bash
 
 Download project code
 ```bash
-mkidr azure-postgresql
+mkdir azure-postgresql
 cd azure-postgresql
 azd init -t azure-postgres-pgvector-python
 ```
