@@ -41,9 +41,21 @@ azd env list
 azd env select <environment-name>
 ```
 
-Copy the default environment variables into you local `.env` and configure them to your liking before provisioning.
+Modify the environment's `.env` file and configure it to your liking before provisioning.
 ```bash
-azd env get-values > .env
+nano .azure\<environment-name>\.env
+```
+
+```
+AZURE_ENV_NAME=
+ADMIN_LOGIN=
+ADMIN_PASSWORD=
+AZURE_LOCATION=
+AZURE_SUBSCRIPTION_ID=
+POSTGRES_DATABASE=
+POSTGRES_HOST=
+POSTGRES_SSL=
+POSTGRES_USERNAME=
 ```
 
 Create a new resource group with the PostreSQL server inside. 
