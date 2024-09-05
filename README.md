@@ -71,7 +71,7 @@ psql -h [server FQDN] -p 5432 -U [username] [database name]
 
 ### References
 https://github.com/Azure-Samples/azure-postgres-pgvector-python
-
+https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/faq
 
 
 
