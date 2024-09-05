@@ -83,6 +83,7 @@ psql
 
 ### References
 https://github.com/Azure-Samples/azure-postgres-pgvector-python
+
 https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/faq
 
 
