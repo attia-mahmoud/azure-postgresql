@@ -9,7 +9,7 @@ Download Azure Developer CLI
 curl -fsSL https://aka.ms/install-azd.sh | bash
 ```
 
-Download project code
+Download project code. It will ask for an environment name.
 ```bash
 mkdir azure-postgresql
 cd azure-postgresql
