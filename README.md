@@ -41,6 +41,11 @@ azd env list
 azd env select <environment-name>
 ```
 
+Copy the default environment variables into you local `.env` and configure them to your liking before provisioning.
+```bash
+azd env get-values > .env
+```
+
 Create a new resource group with the PostreSQL server inside. 
 ```bash
 azd provision
