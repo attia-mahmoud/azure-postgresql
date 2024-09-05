@@ -35,6 +35,12 @@ Create a new azd environment. It will ask you for the environment name.
 azd env new
 ```
 
+Or entering an existing environment:
+```bash
+azd env list
+azd env select <environment-name>
+```
+
 Create a new resource group with the PostreSQL server inside. 
 ```bash
 azd provision
