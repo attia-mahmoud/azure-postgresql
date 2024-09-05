@@ -67,6 +67,18 @@ azd provision
 ```bash
 psql -h [server FQDN] -p 5432 -U [username] [database name]
 ```
+or simply set the following environment variables
+```bash
+export PGHOST=<FQDN>
+export PGUSER=<your username>
+export PGPORT=5432
+export PGDATABASE=<database name>
+export PGPASSWORD="<your password>" 
+```
+then just 
+```
+psql
+```
 
 
 ### References
