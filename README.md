@@ -1,4 +1,4 @@
-# azure-postgresql
+# Setting up a PostgreSQL server on Azure
 
 All steps assume Linux.
 
